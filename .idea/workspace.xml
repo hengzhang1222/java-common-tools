@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="967006f1-9928-463b-8944-5b327e1e75e7" name="Default Changelist" comment="" />
+    <list default="true" id="967006f1-9928-463b-8944-5b327e1e75e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +58,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/utilTest/ArraySortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="238">
               <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -332,7 +334,7 @@
       <workItem from="1576330134476" duration="755000" />
       <workItem from="1576334107391" duration="3331000" />
       <workItem from="1576339283134" duration="1181000" />
-      <workItem from="1576411267837" duration="1108000" />
+      <workItem from="1576411267837" duration="1639000" />
     </task>
     <servers />
   </component>
@@ -345,7 +347,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11346000" />
+    <option name="totallyTimeSpent" value="11877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1296" height="704" extended-state="0" />
@@ -368,7 +370,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4990991" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.13513513" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.23603603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -455,7 +457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/utilTest/ArraySortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="238">
           <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
