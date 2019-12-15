@@ -8,6 +8,7 @@ public class CheckUtils {
         tring... strings 为可变参数，你可以认为它是 String[] strings。
         如果 strings 中有任意⼀个字符串为空，则返回 false，否则返回 true。
     */
+
     public static boolean isAnyEmpty(String... strings) {
         boolean flag = true;
         if(strings.length == 0 ){
@@ -80,11 +81,9 @@ public class CheckUtils {
     /*
         判断 n1 和 n2 的值是否相等，相等则返回 true，否则返回 false。当其中⼀个是 null 时返回 false。
      */
-    public static boolean equalsInt(Integer n1, Integer n2){
+    public static boolean equalsInt(int n1, int n2){
         boolean flag = true;
-        if(n1 == null || n2 == null){
-            flag = false;
-        }else if(n1.toString().trim().equals(n2.toString().trim())){
+        if(n1 == n2){
             flag = true;
         }else {
             flag = false;

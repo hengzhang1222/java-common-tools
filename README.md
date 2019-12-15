@@ -14,3 +14,4 @@
 		判断 n1 和 n2 的值是否相等，相等则返回 true，否则返回 false。当其中1个是 null 时返回 false。
 编写测试类 com.zeroten.common.util.CheckUtilsTest（src/main/test⽬录下）对数据验证工具
 类进行测试，设计的测试用例尽量把各种输⼊情况都考虑到。
+

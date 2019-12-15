@@ -1,38 +1,42 @@
 package com.zeroten.utilTest;
 
-
 import com.zeroten.util.CheckUtils;
-import org.junit.Assert;
+
+
 import org.junit.Test;
 
+import org.junit.Assert;
+
+
 /**
- * Created by ºã on 2019/12/11.
+ * Created by æ’ on 2019/12/11.
  */
 public class CheckUtilsTest {
 
     @Test
     public void CheckUtilsInt(){
-        //¶ÏÑÔ  ²âÊÔÌõ¼ş
+        //æ–­è¨€  æµ‹è¯•æ¡ä»¶
         Assert.assertFalse(CheckUtils.equalsInt(1, 2));
         Assert.assertTrue(CheckUtils.equalsInt(1, 1));
         Assert.assertTrue(CheckUtils.equalsInt(1, 1));
-        Assert.assertFalse(CheckUtils.equalsInt(null,1));
-        //Òª²âÊÔµÄÀàµÄ·½·¨ ¡£ ²âÊÔ³¡¾°£¬¿ÉÄÜ³öÏÖµÄÇé¿ö
+        Assert.assertFalse(CheckUtils.equalsInt(1,2));
+        //è¦æµ‹è¯•çš„ç±»çš„æ–¹æ³• ã€‚ æµ‹è¯•åœºæ™¯ï¼Œå¯èƒ½å‡ºç°çš„æƒ…å†µ
         CheckUtils.equalsInt(1, 2);
         CheckUtils.equalsInt(1 ,1);
         CheckUtils.equalsInt(1, 1);
-        CheckUtils.equalsInt(null,1);
+        CheckUtils.equalsInt(2,3);
     }
 
+    
     @Test
     public void CheckUtilsIStr(){
-        //¶ÏÑÔ  ²âÊÔÌõ¼ş
+        //æ–­è¨€  æµ‹è¯•æ¡ä»¶
         Assert.assertFalse(CheckUtils.equalsStr(null, "ds"));
         Assert.assertFalse(CheckUtils.equalsStr("", "zz"));
         Assert.assertTrue(CheckUtils.equalsStr("aa", "aa"));
         Assert.assertFalse(CheckUtils.equalsStr("as", "ss"));
         Assert.assertFalse(CheckUtils.equalsStr(" ", null));
-        //Òª²âÊÔµÄÀàµÄ·½·¨ ¡£ ²âÊÔ³¡¾°£¬¿ÉÄÜ³öÏÖµÄÇé¿ö
+        //è¦æµ‹è¯•çš„ç±»çš„æ–¹æ³• ã€‚ æµ‹è¯•åœºæ™¯ï¼Œå¯èƒ½å‡ºç°çš„æƒ…å†µ
         CheckUtils.equalsStr(null, "ds");
         CheckUtils.equalsStr(" ", "zz");
         CheckUtils.equalsStr("aa", "aa");
@@ -57,7 +61,7 @@ public class CheckUtilsTest {
         CheckUtils.isAnyEmpty(str4);
     }
 
-    //ÅĞ¶ÏÒı?ÀàĞÍÊı×éÊÇ·ñÎª¿Õ£¬Îª¿Õ»ò null Ôò·µ»Ø true£¬·ñÔò·µ»Ø false¡£
+    //åˆ¤æ–­å¼•?ç±»å‹æ•°ç»„æ˜¯å¦ä¸ºç©ºï¼Œä¸ºç©ºæˆ– null åˆ™è¿”å› trueï¼Œå¦åˆ™è¿”å› falseã€‚
     @Test
     public void CheckUtilsIsEmpty(){
 
@@ -89,7 +93,12 @@ public class CheckUtilsTest {
         Integer[] in2 = {null,3};
         System.out.println(in2.length);
         System.out.println(in2);
+
+
     }
+
+
+
 
 
 }
